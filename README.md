@@ -1,35 +1,35 @@
-# reference openmontage
+# OpenMontage / Backlot: Reference Workshop
 
-reference openmontage 的第三方参考资料与来源索引。
+**A reference workspace for studying storyboard and video-production tooling, keeping the imported implementation and original project notices together.**
 
-GitHub：[eli-ovops/reference-openmontage](https://github.com/eli-ovops/reference-openmontage)
+## What you will find
 
-## 内容
+A reference workspace for studying an upstream project. Its original authorship, licenses and notices remain in place; this copy is not presented as a newly authored replacement.
 
-本次公开副本包含 634 个来源文件。
+## Start here
 
-- [`.gitattributes`](.gitattributes)
-- [`.gitignore.source`](.gitignore.source)
-- [`AGENTS.historical.md`](AGENTS.historical.md)
-- [`AGENT_GUIDE.md`](AGENT_GUIDE.md)
-- [`CLAUDE.md`](CLAUDE.md)
-- [`CODEX.md`](CODEX.md)
-- [`CONTRIBUTING.md`](CONTRIBUTING.md)
-- [`COPILOT.md`](COPILOT.md)
-- [`CURSOR.md`](CURSOR.md)
-- [`LICENSE`](LICENSE)
+- [Original project guide](ORIGINAL_README.md)
+- [Project guide](backlot/README.md)
+- [Project guide](ink-theater/README.md)
+- [Complete source inventory](SOURCE_MANIFEST.csv)
 
-文件类型：.py（318）、.md（180）、.json（54）、.tsx（28）、.yaml（19）、.js（10）、.html（5）、.txt（5）。
+## Current scope
 
-## 阅读方式
+This snapshot includes 634 source files. Original media, databases, private account records and other unprocessed attachments were not included in this text-and-source release.
 
-按主题说明、研究记录和相关程序阅读；保留当时的探索状态与已知缺口。
+This update improves the English presentation. It does not rerun the project, install a skill, reproduce an old test, or establish production readiness. Some original working documents retain their source language; machine-specific paths or setup assumptions may still need adaptation.
 
-## 来源与许可
+## Sources and license
 
-保留原有上游许可证和署名；相关源码按仓库内既有许可使用。新增发布介绍的许可单独列在 LICENSE.publication-notes。
+The original source keeps the license and attribution supplied with the package. See the [retained license](LICENSE) and original notices. New presentation notes, where provided, are licensed separately; they do not relicense upstream work.
 
-来源文件中记录的公开 GitHub 链接（不表示已逐项独立验证）：
+The license for the added presentation notes is retained in [LICENSE.publication-notes](LICENSE.publication-notes).
+
+<details>
+<summary>Reference links retained from the source notes</summary>
+
+These links were present in the project material; they have not all been independently reviewed.
+
 - https://github.com/CapSoftware/cap
 - https://github.com/CapSoftware/cap/releases
 - https://github.com/Comfy-Org/workflow_templates
@@ -47,16 +47,6 @@ GitHub：[eli-ovops/reference-openmontage](https://github.com/eli-ovops/referenc
 - https://github.com/calesthio/OpenMontage/discussions/categories/show-and-tell
 - https://github.com/calesthio/OpenMontage/issues
 
-## 未纳入本次发布的内容
+</details>
 
-隐私、凭证、原始会话、来源权属不明或尚未归类的内容保留在本地。当前排除数量如下；不公开敏感匹配值或内部路径。
-
-- transcript_or_paid_source_not_redistributed：2
-
-## 当前状态与验证边界
-
-- 本次完成公开副本整理和静态检查；没有运行来源代码、构建 App、安装 Skill 或启动服务。
-- 项目可能处于原型、实验或研究阶段；没有将其表述为生产交付、客户验收或经过验证的投资收益。
-- 图片、视频、数据库、真实账户记录及未确认可公开的附件没有随本次文本/源码副本上传。
-- 部分相对链接、运行依赖或素材可能仍需补齐；原始快照中的静态引用缺口数为 5，该数字不是运行失败数。
-- [本次来源文件清单](SOURCE_MANIFEST.csv)
+[Source paths and hashes](SOURCE_MANIFEST.csv)
